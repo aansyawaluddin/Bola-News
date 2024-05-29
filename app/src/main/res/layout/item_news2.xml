@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:background="@drawable/card_post"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3F1FF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TV_Judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            tools:text="Jürgen Klopp: No plans for quick return after Liverpool exit"/>
+
+        <TextView
+            android:id="@+id/publishedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:text="2 Juni 2022" />
+
+        <ImageView
+            android:layout_width="183dp"
+            android:layout_height="137dp"
+            android:src="@drawable/lebron"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/TV_deskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            tools:text="With Klopp leaving, Liverpool must replace an irreplaceable coach. They've landed on Arne Slot, and digging into the data explains why." />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
